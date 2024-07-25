@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/principleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/principle"
+        android:inputType="numberDecimal"
+        android:textSize="24sp"
+        />
+    <EditText
+        android:id="@+id/timeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/time"
+        android:textSize="24sp"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/principleEditText"
+        />
+    <EditText
+        android:id="@+id/rateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/rate"
+        android:textSize="24sp"
+        android:layout_below="@id/timeEditText"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_below="@id/rateEditText"
+        />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textSize="24sp"
+        android:layout_below="@id/btn_calculate"
+        />
+
+</RelativeLayout>

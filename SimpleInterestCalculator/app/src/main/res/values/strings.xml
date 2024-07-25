@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SimpleInterestCalculator</string>
+    <string name="principle">Principle</string>
+    <string name="time">Time(in years)</string>
+    <string name="rate">Rate</string>
+    <string name="calculate">Calculate</string>
+    <string name="result">Result</string>
+</resources>

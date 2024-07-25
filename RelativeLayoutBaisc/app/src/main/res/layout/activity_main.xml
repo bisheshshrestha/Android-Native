@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button_One"
+        android:textAllCaps="false"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+<!--        android:layout_centerInParent="true"/>-->
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button Two"
+        android:layout_marginLeft="4dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/buttonOne"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button_Three"
+        android:textAllCaps="false"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/buttonOne"
+        android:layout_marginRight="4dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button_Four"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/buttonOne"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button_Five"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonOne"
+        />
+
+</RelativeLayout>

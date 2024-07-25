@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">LoginSignupExample</string>
+    <string name="login_title">Login/Signup</string>
+    <string name="login_description">Login page where you can login into existing system</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="full_name">Full_name</string>
+    <string name="address">Address</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="others">Others</string>
+    <string name="submit">submit</string>
+
+
+    <string-array name="countries">
+        <item>Nepal</item>
+        <item>India</item>
+
+    </string-array>
+</resources>

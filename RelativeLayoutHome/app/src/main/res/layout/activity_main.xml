@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/TextViewOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_1"
+        android:textSize="28sp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_2"
+        android:textSize="28sp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/TextViewOne"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_3"
+        android:textSize="28sp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/TextViewOne"
+        android:layout_marginRight="8dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_4"
+        android:textSize="28sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/TextViewOne"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_5"
+        android:textSize="28sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/TextViewOne"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        />
+
+</RelativeLayout>

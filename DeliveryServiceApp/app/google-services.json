@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "159027692393",
+    "project_id": "deliveryserviceapp-a67cc",
+    "storage_bucket": "deliveryserviceapp-a67cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159027692393:android:460fc76be82097576733f8",
+        "android_client_info": {
+          "package_name": "edu.divyagyan.deliveryserviceapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc6F1m5Z9SB5TdYRy8Tv7N9D2yFAkPkM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
